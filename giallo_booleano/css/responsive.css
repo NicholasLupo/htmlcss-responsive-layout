@@ -1,6 +1,6 @@
 /* Soluzione qui */
 
-/* Tablet */
+/* Tablet resolution */
 
 @media screen and (min-width: 768px){
 
@@ -57,7 +57,7 @@
     }
 }
 
-/* Desktop */
+/* Desktop resolution */
 
 @media screen and (min-width: 992px) {
 
