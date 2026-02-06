@@ -1,5 +1,30 @@
 /* Soluzione qui */
 
+/* Mobile resolution */
+
+@media screen and (min-width: 567px) {
+
+    .social-networks {
+
+        .btn {
+            width: 20%;
+        }
+    }
+
+
+    .presentation {
+
+        .clearfix {
+
+            img {
+                margin-right: 0.5rem;
+                float: left;
+            }
+        }
+    }
+    
+}
+
 /* Tablet resolution */
 
 @media screen and (min-width: 768px){
