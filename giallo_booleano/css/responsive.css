@@ -1,15 +1,76 @@
 /* Soluzione qui */
 
-/* Desktop */
+/* Tablet */
 
-@media screen and (width >= 992px) {
+@media screen and (min-width: 768px){
+
+    main {
+        padding: 40px;
+    }
 
     #topbar {
         justify-content: left;
     }
 
-    .recipe-origin {
-        display: inline-block;
+    .recipe-name {
+        font-size: 2rem;
+
+        .recipe-origin {
+            display: inline-block;
+        }
+    }
+
+    .quick-notes {
+
+
+        ul {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly; /* Non c'entra niente, è solo più figo ordinato così*/
+
+            li {
+                width: 33%;
+            }
+        }
+    }
+
+    .social-networks {
+
+        .btn {
+            width: 20%;
+        }
+    }
+
+    .ads {
+        display: block;
+    }
+
+    .presentation {
+
+        .clearfix {
+
+            img {
+                margin-right: 0.5rem;
+                float: left;
+            }
+        }
+    }
+}
+
+/* Desktop */
+
+@media screen and (min-width: 992px) {
+
+    #topbar {
+        justify-content: left;
+    }
+
+    .recipe-name {
+        font-size: 3rem;
+
+        .recipe-origin {
+            display: inline-block;
+        }
     }
 
     .recipe-card {
