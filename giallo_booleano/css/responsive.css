@@ -2,7 +2,7 @@
 
 /* Desktop */
 
-@media screen and (width >= 912px) {
+@media screen and (width >= 992px) {
 
     #topbar {
         justify-content: left;
