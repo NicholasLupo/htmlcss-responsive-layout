@@ -1,1 +1,60 @@
 /* Soluzione qui */
+
+/* Desktop */
+
+@media screen and (width >= 912px) {
+
+    #topbar {
+        justify-content: left;
+    }
+
+    .recipe-origin {
+        display: inline-block;
+    }
+
+    .recipe-card {
+        display: flex;
+
+        .recipe-video {
+            width: 70%;
+            max-height: 500px;
+        }
+
+        .recipe-info {
+            width: 30%;
+        }
+    }
+
+    .social-networks {
+
+        .btn {
+            width: 20%;
+
+            .label {
+                display: inline-block;
+            }
+        }
+    }
+
+    .ads {
+        display: block;
+    }
+
+    .presentation {
+
+        .clearfix {
+
+            img {
+                margin-right: 0.5rem;
+                float: left;
+            }
+        }
+    }
+
+    footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-align: left;
+    }
+}
